@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script type="text/javascript" src="myScript.js"></script>
+</head>
+<body>
+<div class="root">
+<h2>PHONE DIRECTORY</h2></div>
+<div class="numbermain">
+  NAME:<br>
+  <input type="text" id="myNameInput" name="name"  oninput="myNameFunction()" placeholder="Name" required  autofocus >
+  <br><br>
+  PHONE NUMBER:<br>
+  <input type="text" id="myPhoneInput" name="number"  oninput="myPhoneFunction()" placeholder="Mobile Number" maxlength="10" required>
+  <br><br>
+  <h3>Subscriber to be added:</h3>
+  <p>Name:</p><p id="nm"></p>
+  </p>Phone Number:</p><p id="nub"></p>
+  <a href=# class="button1" onclick="addHtmlTablerow()">ADD</a>
+</div>
+<div class="tab">
+<table id="mytable" style="width:100%">
+<tr class="hea">
+<th>Name</th>
+<th>Phone</th>
+<th>Action</th>
+</tr>
+</table>
+</div>
+</body>
+</html>
